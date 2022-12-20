@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/users 
+Content-Type: application/json
+Authorization: Bearer 123456
+
+{
+    "username": "root",
+    "name": "Superuser",
+    "password": "salainen"
+}
