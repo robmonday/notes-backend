@@ -1,8 +1,8 @@
 POST http://localhost:8080/api/notes 
 Content-Type: application/json
-Authorization: Bearer 123456
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYm1vbmRheSIsImlkIjoiNjM5OWUyOWUzNTVkN2FhNjZlMmMyN2M0IiwiaWF0IjoxNjcxNjMzMzgxLCJleHAiOjE2NzE2MzY5ODF9.8NxlgLegXxyA1izskgU9DyqtKkOKQHUxdIu0wn09icQ
 
 {
-  "content": "Dummie note",
+  "content": "Second Note Rob Created",
   "important": true
 }
