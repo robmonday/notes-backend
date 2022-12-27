@@ -1,8 +1,2 @@
-POST http://localhost:8080/api/notes 
+POST http://localhost:3001/api/notes 
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvYm1vbmRheSIsImlkIjoiNjM5OWUyOWUzNTVkN2FhNjZlMmMyN2M0IiwiaWF0IjoxNjcxNjMzMzgxLCJleHAiOjE2NzE2MzY5ODF9.8NxlgLegXxyA1izskgU9DyqtKkOKQHUxdIu0wn09icQ
-
-{
-  "content": "Second Note Rob Created",
-  "important": true
-}
